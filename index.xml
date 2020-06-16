@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>My New Hugo Site</title>
+    <link>https://liuxiaofei2010s.github.io/</link>
+    <description>Recent content on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 16 Jun 2020 11:43:15 +0800</lastBuildDate>
+    
+	<atom:link href="https://liuxiaofei2010s.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Blog</title>
+      <link>https://liuxiaofei2010s.github.io/post/blog/</link>
+      <pubDate>Tue, 16 Jun 2020 11:43:15 +0800</pubDate>
+      
+      <guid>https://liuxiaofei2010s.github.io/post/blog/</guid>
+      <description>因为原先学过java,开发过android,所以用《算法》（第四版）学习数据结构与算法，主要语言是java，开发工具为IntelliJ IDEA。
+选择排序是相对比较简单的排序方法，主要思想是开始从第一项到最后一项，选择出当前数组中最小的值，与当前数组的最前端项更换位置。然后第二项到最后一项之间的数组数据进行第二次选择数据并更换位置，以此类推，直到最后一项不用去比较或者更换。
+以下是相关代码：
+public class SelectSort { public static void main(String[] args) { int[] array = new int[]{2, 4, 7, 0, 6, 8, 1, 5, 9, 3}; sort(array); } private static void sort(int[] array) { for (int i = 0; i &amp;lt; array.length; i++) { int index = i; //只需记录下标 for (int k = i + 1; k &amp;lt; array.length; k++) { if (array[index] &amp;gt; array[k]) { index = k; } } int temp = array[index]; array[index] = array[i]; array[i] = temp; } for (int d = 0; d &amp;lt; array.</description>
+    </item>
+    
+  </channel>
+</rss>
